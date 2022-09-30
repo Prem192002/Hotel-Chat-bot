@@ -28,7 +28,7 @@ if d==a:                          #booking
     db=mysql.connector.connect(
         host="localhost",
         user="root",
-        password="prem@2002"
+        password="root"
     )
       
     y=db.cursor()
@@ -61,7 +61,7 @@ if d==b:                           #check_in
     db=mysql.connector.connect(
         host="localhost",
         user="root",
-        password="prem@2002"
+        password="root"
     )
     cur=db.cursor()
     cur.execute("use star_hotel")
@@ -92,7 +92,7 @@ if d==c:                        #checkout
     db=mysql.connector.connect(
         host="localhost",
         user="root",
-        password="prem@2002"
+        password="root"
     )
     cur=db.cursor()
     cur.execute("use star_hotel")
@@ -115,7 +115,7 @@ if d==e:                            #prices
     db=mysql.connector.connect(
         host="localhost",
         user="root",
-        password="prem@2002"
+        password="root"
     )
     cur=db.cursor()
     cur.execute("use star_hotel")
